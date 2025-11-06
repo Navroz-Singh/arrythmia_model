@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from imblearn.under_sampling import RandomUnderSampler
 import pickle
 
-CLASSES = ['N', 'L', 'R', 'V', 'A']
+CLASSES = ['Normal', 'LBBB', 'RBBB', 'PVC', 'APB']
 DATASET_PATH = 'dataset/'
 WINDOW_SIZE = 180
 
