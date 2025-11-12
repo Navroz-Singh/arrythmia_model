@@ -50,7 +50,7 @@ def predict_single_heartbeat(record_name, peak_index):
     print(f"\n--> Prediction: {predicted_class_name} ({confidence:.2f}% confidence)")
 
 if __name__ == '__main__':
-    example_record = '107'
+    example_record = '124'
     example_r_peak_location = 7303
     
     predict_single_heartbeat(example_record, example_r_peak_location)
